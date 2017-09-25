@@ -28,7 +28,6 @@ class App extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    console.log(this.state.value);
 
     Tasks.insert({
       text: this.state.value,
